@@ -1,0 +1,248 @@
+{
+  "contenido": [
+    {
+      "tag": "saludo",
+      "patrones": [
+        "hola",
+        "Buenos dias",
+        "Buenas Tardes",
+        "Buenas Noches",
+        "consulta",
+        "consultar",
+        "quisiera preguntar"
+      ],
+      "respuestas": [
+        "Hola , cuentame que calzados estas buscando para poder ayudarte",
+        "Gracias por contactar a Calzados Portuguez, cuentame ¿Que calzados estas buscando",
+        "Un gusto ¿Que calzados estas buscando para poder ayudarte?"
+      ]
+    },
+    {
+      "tag": "servicio",
+      "patrones": [
+        "tipos de calzados que ofrecen?",
+        "¿qué calzado tiene?",
+        "¿qué calzados tienen?",
+         "servicios"
+      ],
+      "respuestas": [
+        "ofrecemos zapatillas (sport, económico y básico), sandalia</br>  para niños, jóvenes y adultos a precios super cómodos </br> ¿Que calzado desea?"
+      ]
+    },
+    {
+      "tag": "servicio_zapatilla",
+      "patrones": [
+        "¿Que zapatillas ofrecen?",
+        "comprar zapatilla",
+         "zapatillas hay?",        
+        "zapatilla",
+        "zapatillas"
+      ],
+      "respuestas": [
+        "zapatillas","¿que modelo de zapatilla esta buscando?"
+      ]
+}, 
+    {
+      "tag": "modelo_zapatilla",
+      "patrones": [
+         "marca zapatillas",
+       "marcas de zapatilla",
+       "modelo de zapatillas",
+       "modelos de zapatilla",
+       "Quiero ver mas zapatillas",
+       "ver mas zapatillas"
+        ],
+      "respuestas": [
+        "catalogo_zapatilla"
+      ]
+    },
+    {
+      "tag": "servicio_zapatilla_nike",
+      "patrones": [
+         "zapatilla nike",
+         "nike",
+         "zapatillas nike ",
+         "modelo nike"
+      ],
+      "respuestas": [
+        "nike"
+      ]
+    },
+    {
+      "tag": "servicio_zapatilla_tigre",
+      "patrones": [
+        "tigre",
+        "zapatillas",
+        "zapatilla tigre"
+      ],
+      "respuestas": [
+        "tigre"
+      ]
+    },
+    {
+      "tag": "servicio_sandalias",
+      "patrones": [
+        "¿Que sandalias ofrecen?",
+        "comprar sandalias",
+         "sandalias hay?",        
+        "sandalia",
+        "sandalias",
+        "chapla"
+      ],
+      "respuestas": [
+        "sandalias", "catalogo_sandalias" ]
+    }, {
+      "tag": "modelo_sandalia",
+      "patrones": [
+        "¿Que modelo de sandalias tiene?",
+         "marca sandalias",
+       "marcas de sandalias",
+       "modelo de sandalias",
+       "modelo de sandalia"
+
+    
+      ],
+      "respuestas": [
+       "¿que modelo de sandalias esta buscando?"
+       ]
+    },{
+      "tag": "servicio_sandalias_crocs",
+      "patrones": [
+        "sandalias crocs",
+        "sandalias crocs "
+      ],
+      "respuestas": [
+        "crocs"
+      ]
+    }, {
+      "tag": "respuesta_modelo",
+      "patrones": [
+     
+        "Quiero ver mas modelos",
+        "Ver modelos",
+        "Que modelos Tiene",
+       
+        "modelos comodos"
+       ],
+      "respuestas": [
+        "¿Que tipo de calzado se refiere : zapatillas o sandalias?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patrones": [
+        "gracias",
+        "es todo gracias por la atencion",
+        "Muchas gracias",
+        "listo"
+      ],
+      "respuestas": [
+        "Claro :)  ",
+        "De nada :) ",
+        " Siempre puede comunicarse conmigo directamente a nuestro email :</br> calzadosportuguez@gmail.com, le deseo que tenga un día maravilloso"
+      , "estaremos esperando",
+      "Esta bien , cuidese"
+      ]
+    },
+    {
+      "tag": "precios",
+      "patrones": [
+        "ofertas",
+        "oferta",
+        "promociones",
+        "promocion"
+      ],
+      "respuestas": [
+        "ofertas"   
+      ]
+    },
+      {
+      "tag": "descuento",
+      "patrones": [
+        "Nada menos?",
+        "Algo menos ",
+        "menos",
+        "menos precio",
+        "caro",
+        "reducir el precio"
+      ],
+      "respuestas": [
+        "Entiendo que quiere el mejor trato posible en nuestro producto / servicio.</br> En este momento, no tenemos una promoción en marcha"
+      ]
+    },
+    {
+      "tag": "comico",
+      "patrones": [
+        "gaaaa",
+        "aea",
+        "raaa",
+        "chupetin"
+      ],
+      "respuestas": [
+        "aea",
+        "lol",
+        "ya , ¿pero eres o no eres?",
+        "vota tu gaaaaaaaaaaaa",
+        "raaaa raaaaa raaaaaaa"
+      ]
+    },
+
+    {
+      "tag": "ubicacion",
+      "patrones": [
+        "donde estan?",
+        "encontrar",
+        "ubicacion ",
+        "donde",
+        "local",
+        "tienda"
+      ],
+      "respuestas": [
+        "Nos ubicamos en : https://www.google.com/maps/place/Calzados+Portuguez/@-13.4162764,-76.1357076,15z/data=!4m2!3m1!1s0x0:0x7d72d28a12db110d?sa=X&ved=2ahUKEwi8oMjX9-TqAhXILLkGHbxoCBoQ_BIwE3oECBQQCA "
+      ]
+    }, 
+    {
+      "tag": "yo",
+      "patrones": [
+        "quien eres?",
+        "quien",
+        "quien te desarrollo",
+        "lenguaje te construyeron",
+        "¿Quien te creo?" 
+        
+      ],
+      "respuestas": [
+        "Soy Calzadito tu bot, desarrollado en pyhton y entrenado con redes neuronales , creado por los dioses griegos"
+      ]
+    },
+    {
+      "tag": "redes_sociales",
+      "patrones": [
+        "redes sociales",
+        "Facebook",
+        "Instagram" ,
+        "Whatsapp" ,
+        "WASSAP",
+        "wasaaa",
+        "fb",
+        "insta"
+      ],
+      "respuestas": [
+        "Nos encuentras en facebook como : ...., tambien nos puedes escribir a nuestro Whatsapp : ..."
+      ]
+    },
+    {
+      "tag": "error",
+      "patrones": [
+        "asdasd",
+        "gaaaa",
+        "aea",
+        "raaa"
+      ],
+      "respuestas": [
+        "No entiendo , porfavor ¿quisieras ser mas especifico?",
+        " Soy un bot, recien Estoy Aprendiendo , porfavor ¿quisieras ser mas especifico?"
+      ]
+    }
+  ]
+}
